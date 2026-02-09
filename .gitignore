@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Machine Learning (DON'T COMMIT LARGE FILES)
+*.pth
+*.pkl
+*.h5
+*.onnx
+train_results/
+results/
+checkpoints/
+
+# Data (keep structure, ignore large files)
+data/*.csv
+data/*.mat
+!data/.gitkeep
+
+# MATLAB
+*.asv
+*.mex*
+slprj/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/

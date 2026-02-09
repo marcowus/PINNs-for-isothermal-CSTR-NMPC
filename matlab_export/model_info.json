@@ -1,0 +1,22 @@
+{
+    "architecture": {
+        "layers": 5,
+        "input_dim": 3,
+        "hidden_dim": 64,
+        "output_dim": 1,
+        "activation": "tanh"
+    },
+    "system_constants": {
+        "C_Ai": 1.0,
+        "k": 0.028
+    },
+    "input_description": {
+        "x1": "C_A0 (current concentration)",
+        "x2": "u (input flow rate)",
+        "x3": "dt (time step)"
+    },
+    "output_description": {
+        "y1": "C_A_next (predicted concentration at next timestep)"
+    },
+    "matlab_usage": "Load pinn_weights.mat and use forward_pass.m to evaluate the network"
+}
